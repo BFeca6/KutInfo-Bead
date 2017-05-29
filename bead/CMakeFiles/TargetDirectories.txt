@@ -1,0 +1,4 @@
+C:/Users/asus notebook/Desktop/KutInf/bead/app/CMakeFiles/app.dir
+C:/Users/asus notebook/Desktop/KutInf/bead/phys/CMakeFiles/phys.dir
+C:/Users/asus notebook/Desktop/KutInf/bead/app/CMakeFiles/data.dir
+C:/Users/asus notebook/Desktop/KutInf/bead/gnuplot/CMakeFiles/png.dir

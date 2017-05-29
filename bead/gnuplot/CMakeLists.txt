@@ -1,0 +1,23 @@
+project (gnuplot)
+
+cmake_minimum_required (VERSION 2.8.12.2)
+
+find_program(GNUPLOT_EXECUTABLE
+  NAMES
+  gnuplot
+  pgnuplot
+  wgnupl32
+  PATHS
+  ${CYGWIN_INSTALL_PATH}/bin
+)
+
+
+
+add_custom_command(COMMAND ${GNUPLOT_EXECUTABLE} ${PROJECT_SOURCE_DIR}/pendulum.plt
+                WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+                OUTPUT ${CMAKE_BINARY_DIR}/pendulum.png
+                BYPRODUCTS ${CMAKE_BINARY_DIR}/pendulum.png
+                DEPENDS ${PROJECT_SOURCE_DIR}/pendulum.plt data
+                COMMENT "Generating png set")
+
+add_custom_target(png ALL DEPENDS ${CMAKE_BINARY_DIR}/pendulum.png)

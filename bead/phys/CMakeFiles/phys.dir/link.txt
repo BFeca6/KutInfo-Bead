@@ -1,0 +1,2 @@
+C:\PROGRA~2\CodeBlocks\MinGW\bin\ar.exe qc libphys.a  CMakeFiles/phys.dir/src/vector.cpp.obj CMakeFiles/phys.dir/src/odeint.cpp.obj
+C:\PROGRA~2\CodeBlocks\MinGW\bin\ranlib.exe libphys.a

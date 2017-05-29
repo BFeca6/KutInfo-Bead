@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/asus notebook/Desktop/KutInf/bead/phys/src/odeint.cpp
+algorithm
+-
+cmath
+-
+cstdlib
+-
+iostream
+-
+vector.hpp
+C:/Users/asus notebook/Desktop/KutInf/bead/phys/src/vector.hpp
+odeint.hpp
+C:/Users/asus notebook/Desktop/KutInf/bead/phys/src/odeint.hpp
+
+C:/Users/asus notebook/Desktop/KutInf/bead/phys/src/vector.cpp
+algorithm
+-
+cmath
+-
+cstdarg
+-
+cstdlib
+-
+iostream
+-
+vector.hpp
+C:/Users/asus notebook/Desktop/KutInf/bead/phys/src/vector.hpp
+
+phys/inc/odeint.hpp
+iostream
+-
+
+phys/inc/vector.hpp
+iostream
+-
+

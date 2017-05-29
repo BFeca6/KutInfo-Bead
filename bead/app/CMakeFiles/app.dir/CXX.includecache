@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/asus notebook/Desktop/KutInf/bead/app/src/pendulum.cpp
+pendulum.hpp
+C:/Users/asus notebook/Desktop/KutInf/bead/app/src/pendulum.hpp
+
+app/inc/pendulum.hpp
+cmath
+-
+cstdlib
+-
+iostream
+-
+fstream
+-
+string
+-
+vector.hpp
+-
+odeint.hpp
+-
+
+phys/inc/odeint.hpp
+iostream
+-
+
+phys/inc/vector.hpp
+iostream
+-
+
